@@ -6,6 +6,11 @@
     margin: 0;
     font-family: "Open Sans", sans-serif;
 }
+
+img{
+    max-width: 100%;
+}
+
 .common-button{
     background-color: #fd6e0a;
     padding: 10px 20px;
@@ -14,18 +19,36 @@
     font-size: 22px;
     color: white;
     border: 0px;
+    cursor: pointer;
 }
+
+.outline-button{
+    background-color: white;
+    padding: 10px 20px;
+    border-radius: 12px;
+    font-weight: bold;
+    font-size: 22px;
+    color: #fd6e0a;
+    border: 1px solid #fd6e0a;
+    cursor: pointer;
+}
+
+.container{
+    max-width: 1200px;
+    margin: auto;
+}
+
 nav{
     display: flex;
     justify-content: space-between;
-    max-width: 1200px;
-    margin: auto;
     padding: 12px 0;
 }
+
 .logo{
     font-weight: bold;
     font-size: 32;
 }
+
 .logo-d{
     color: #fd6e0a;
 }
@@ -38,4 +61,110 @@ ul{
 }
 ul li a{
     text-decoration: none;
+}
+
+/* hero section */
+.hero-parent-root{
+    background-color: #FFF8F3;
+}
+
+.hero-parent{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.heroleft h2{
+    font-weight: bold;
+    font-size: 85px;
+    margin-bottom: 12px;
+}
+
+.hero-left-p1{
+    font-size: 45px;
+    color: #474747FF;;
+}
+
+.hero-left-p2{
+    font-size: 18px;
+    color: #757575FF;
+}
+
+.hero-btn{
+    margin-top: 12px;
+}
+
+.about-parent{
+    background-color: #FFF8F3;
+    margin: 70px auto;
+    padding: 75px;
+    text-align: center;
+}
+.about-parent p{
+    margin: 20px 0;
+}
+.about-box-parent{
+    display: flex;
+    justify-content: space-between;
+    gap: 8px;
+}
+/* what i do section */
+.what-i-do-parent{
+    margin: 60px auto;
+    text-align: center;
+}
+.what-i-do-parent p{
+    color:#757575FF;
+}
+.do-card-container{
+    margin-top: 40px;
+    display: flex;
+    justify-content: space-between;
+    gap: 8px;
+}
+.do-card-container .do-card{
+    padding: 30px;
+    border-radius: 10px;
+    text-align: left;
+    box-shadow: gray 1px 1px 5px;
+}
+.do-card-container .do-card h2{
+    margin-top: 10px;
+    margin-bottom: 15px;
+    font-size: 20px;
+}
+.do-card-container .do-card p{
+    color: #757575FF;
+    font-size: 16px;
+}
+/* A summery of my resume */
+.summery-head{
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    font-size: 27px;
+}
+.summary{
+    display: flex;
+    justify-content: space-between;
+    gap: 100px;
+}
+.details h2,h4,p{
+    margin-bottom: 10px;
+}
+
+.details h2,h4{
+    color: #474747FF;
+    margin-top: 10px;
+}
+.details p{
+    color: #757575FF;
+}
+.atorg{
+    font-weight: bold;
+}
+.cv-btn{
+    display: flex;
+    align-items: center;
+    margin-top: 40px;
 }
