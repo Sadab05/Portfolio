@@ -72,7 +72,9 @@ ul{
 }
 ul li a{
     text-decoration: none;
-    color: #757575FF;
+    color: #474747FF;
+    font-weight: bold;
+    margin-right: 10px;
 }
 
 /* hero section */
@@ -94,7 +96,7 @@ ul li a{
 
 .hero-left-p1{
     font-size: 45px;
-    color: #474747FF;;
+    color: #474747FF;
 }
 
 .hero-left-p2{
